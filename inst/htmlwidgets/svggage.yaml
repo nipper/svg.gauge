@@ -4,4 +4,4 @@
     version: 1.0.5
     src: htmlwidgets/lib/svg_gauge-1.0.5
     script: gauge.min.js
-    stylesheet: guage_basic.css
+    stylesheet: gauge_basic.css

@@ -1,12 +1,14 @@
 Package: svg.gauge
-Title: What the Package Does (One Line, Title Case)
+Title: Wraps a thin wrapper around svg-gauge
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Sam",
+           family = "Phinizy",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
+           email = "nipper@gmail.com")
+Description: Creates a thin htmlwidgets wrapper around the svg-gauge javascript library.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/nipper/svg.gauge
+BugReports: https://github.com/nipper/svg.gauge/issues

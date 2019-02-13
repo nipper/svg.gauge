@@ -6,8 +6,10 @@ SVG Gauge creates a thin [htmlwidgets](https://www.htmlwidgets.org/index.html) w
 
 TBD
 ``` r
-devtoolss
+## If you don't have devtools installed install it:
+## install.packages("devtools")
 
+devtools::install_github("nipper/svg.gauge")
 ```
 
 ## Example

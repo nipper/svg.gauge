@@ -1,11 +1,18 @@
-#' <Add Title>
+#' Svg Guage
 #'
-#' <Add Description>
+#' Generates a an SVG guage
+#'
+#' @param value Numeric value of the guage
+#' @param max Maximium value in the gauge
+#' @param showValue If TRUE show the value in the middle of the guage.
+#' @param width Width of the htmlwidget
+#' @param height Height of the htmlwidget
+#' @param elementId ElementID to reference
 #'
 #' @import htmlwidgets
 #'
 #' @export
-svg_gage <- function(value,max,showValue = TRUE,width = NULL, height = NULL, elementId = NULL) {
+svg_gauge <- function(value,max,showValue = TRUE, width = NULL, height = NULL, elementId = NULL) {
 
   # forward options using x
   x = list(
